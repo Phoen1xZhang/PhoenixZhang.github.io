@@ -23,4 +23,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-baseurl: /PhoenixZhang.github.io
+baseurl: "/PhoenixZhang.github.io"
