@@ -1,3 +1,21 @@
 .current {
   color: green;
 }
+
+.navigationBar{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top:20px;
+  height:55px;
+  border-bottom: medium ridge #9d98d0;
+}
+
+.navItem{
+  text-align: center;
+  width: 20%;
+  font-size: 40px;
+  border: medium ridge #9d98d0;
+  border-radius: 10px;
+}
+

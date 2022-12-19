@@ -7,8 +7,18 @@ layout: default
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <style>
+        .background{
+            min-height: 500px;
+            background-image: url("assets/images/首页背景.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
-<body>
-<h1>{{ "Hello World!" | downcase }}</h1>
+<body class="background">
+
 </body>
 </html>

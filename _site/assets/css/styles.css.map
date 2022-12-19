@@ -3,12 +3,14 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"_sass/main.scss"
+		"_sass/main.scss",
+		"_sass/intro.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		".current {\n  color: green;\n}"
+		"@import \"main\";\n@import \"intro\";",
+		".current {\n  color: green;\n}\n\n.navigationBar{\n  display: flex;\n  justify-content: space-around;\n  position: relative;\n  top:20px;\n  height:55px;\n  border-bottom: medium ridge #9d98d0;\n}\n\n.navItem{\n  text-align: center;\n  width: 20%;\n  font-size: 40px;\n  border: medium ridge #9d98d0;\n  border-radius: 10px;\n}\n\n",
+		".side{\n  height: auto;\n  background-color: #c0bfd9;\n  position: fixed;\n  left:0;\n  width: 350px;\n  top: 85px;\n  bottom: 0;\n  z-index: -1;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n#portrait{\n  height:150px;\n  width:150px;\n  border-radius: 50%;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;AAED,AAAA,cAAc,CAAA,EACZ,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,YAAY,EAC7B,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAC,IAAI,EACR,MAAM,EAAC,IAAI,EACX,aAAa,EAAE,oBAAoB,GACpC;;AAED,AAAA,QAAQ,CAAA,EACN,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,GAAG,EACV,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,oBAAoB,EAC5B,aAAa,EAAE,IAAI,GACpB;;ACnBD,AAAA,KAAK,CAAA,EACH,MAAM,EAAE,IAAI,EACZ,gBAAgB,EAAE,OAAO,EACzB,QAAQ,EAAE,KAAK,EACf,IAAI,EAAC,CAAC,EACN,KAAK,EAAE,KAAK,EACZ,GAAG,EAAE,IAAI,EACT,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,EAAE,EACX,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,eAAe,EAAE,YAAY,EAC7B,WAAW,EAAE,MAAM,GACpB;;AAED,AAAA,SAAS,CAAA,EACP,MAAM,EAAC,KAAK,EACZ,KAAK,EAAC,KAAK,EACX,aAAa,EAAE,GAAG,GACnB"
 }
