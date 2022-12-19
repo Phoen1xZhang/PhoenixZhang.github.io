@@ -1,3 +1,5 @@
+baseurl: "/PhoenixZhang.github.io"
+
 collections:
   authors:
     output: true
